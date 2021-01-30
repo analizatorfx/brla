@@ -6,7 +6,6 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit, OnDestroy {
-
   personName: string;
 
   constructor() {
@@ -15,8 +14,8 @@ export class ContactComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     // incicjalizacja tutaj
-    this.personName = 'Mateusz';
-    console.log('ngOnInit');
+    this.personName = 'Mateusz Matczak';
+    console.log('ngOnInit()');
   }
 
   ngOnDestroy(): void {
