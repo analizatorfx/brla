@@ -1,1 +1,3 @@
-.my-todo-item
+.my-todo-item {
+  border: dashed 2px red;
+}

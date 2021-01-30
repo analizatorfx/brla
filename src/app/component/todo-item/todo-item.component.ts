@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import EventEmitter = require('events');
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 
 @Component({
   selector: 'app-todo-item',
@@ -13,6 +12,5 @@ export class TodoItemComponent  {
   public buttonClicked(): void {
    this.onChange.emit();
   }
-
 
 }

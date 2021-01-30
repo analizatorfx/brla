@@ -6,16 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent implements OnInit {
-
- // public  todos: string[] = ['do homework', 'wash dishes', 'clean car']
-
+  public  todos: string[];
 
   constructor() { }
 
   ngOnInit(): void {
-    this.todo = ['do homework', 'wash dishes', 'clean car'];
+    this.todos = ['do homework', 'wash dishes', 'clean car'];
   }
 
-  public handleClick: any;
 
+  public handleClick(): void {
+    console.log('handleClick()');
+  }
 }
