@@ -1,0 +1,8 @@
+<div class="my-todo-list">
+
+  <div *ngFor="let todo of todos">
+        <app-todo-item [item]="todo" (onChange)="handleClick()"></app-todo-item>
+  </div>
+
+
+</div>
